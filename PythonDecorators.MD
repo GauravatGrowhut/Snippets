@@ -1,3 +1,4 @@
+## @retry
 ```python
 import time
 from functools import wraps
@@ -45,7 +46,7 @@ def connect() -> None:
     time.sleep(1)
     raise Exception('Could not connect to internet...')
 ```
-----
+## @time
 ```python
 import time
 from time import perf_counter, sleep
